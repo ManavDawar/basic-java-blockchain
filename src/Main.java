@@ -26,7 +26,7 @@ public class Main {
         String[] block3Transactions = {"ivan sent 999 bitcoin to my mom"};
         Block block3 = new Block(block2.getBlockHash(), block3Transactions);
 
-        System.out.println("Hash of genesis block:");
+        System.out.println("Hash of starting genesis block:");
         System.out.println(genesisBlock.getBlockHash());
 
         System.out.println("Hash of block 2:");
